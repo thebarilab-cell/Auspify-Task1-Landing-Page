@@ -1,0 +1,27 @@
+node_modules/
+dist/
+coverage/
+.npm-cache/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and operating-system files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Generated tooling files
+*.tsbuildinfo
